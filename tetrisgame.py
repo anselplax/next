@@ -28,7 +28,7 @@ while True:
     # move the snake
     head = snake[0]
     if direction == curses.KEY_UP:
-        new_head = (head[0]-1, head[1])
+        new_head = (head[0]-1, head[0])
     elif direction == curses.KEY_DOWN:
         new_head = (head[0]+1, head[1])
     elif direction == curses.KEY_LEFT:
