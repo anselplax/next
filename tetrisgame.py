@@ -3,7 +3,7 @@ import curses
 
 # initialize the screen
 screen = curses.initscr()
-curses.curs_set(0)
+curses.curs_set(1)
 screen_height, screen_width = screen.getmaxyx()
 
 # create the snake
