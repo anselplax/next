@@ -10,7 +10,7 @@ module.exports = {
         "green": "#09A129",
         "yellow": "#FAF33E",
         "red": "#C1292E",
-        "purple": "#7E3F8F",
+        "purple": "#7EFF8F",
       },
       animation: {
         'rotate': 'rotate 3s linear infinite',
