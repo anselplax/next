@@ -11,7 +11,7 @@ snake = [(screen_height//2, screen_width//2)]
 direction = curses.KEY_RIGHT
 
 # create the food
-food = (random.randint(1, screen_height-1), random.randint(1, screen_width-1))
+food = (random.randint(1, screen_height-2), random.randint(1, screen_width-1))
 
 # draw the food
 screen.addch(food[0], food[1], curses.ACS_PI)
